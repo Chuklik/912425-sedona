@@ -1,0 +1,13 @@
+.main-header-logo {
+    width: 140px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.main-page {
+    background-image: url("background-sedona.jpg");
+    background-position: 50% 50%;
+}
+.welcome-sedona {
+    
+}

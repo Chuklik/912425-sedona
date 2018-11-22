@@ -3,27 +3,31 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
     <title>HTML Academy: Седона</title>
 </head>
 
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <div><a class="main-header-logo" href="index.html"><img src="img/index-logo.jpg" width="" height="" alt="Logo Sedona"></a></div>
+            <div class="main-header-logo"><a  href="#"><img src="img/index-logo.svg" alt="Logo Sedona"></a></div>
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
                 <li><a href="album.html">Фото и видео</a></li>
                 <li><a href="map.html">Карта Штата</a></li>
-                <li><a href="#">Гостиницы</a></li>
+                <li><a href="catalog.html">Гостиницы</a></li>
             </ul>
         </nav>
     </header>
     <main class="catalog-page">
+        <section class="choosing">
+            <input type="range" min="0" max="4000" step="100">
+        </section>
         <section class="motels-search-result">
             <ul class="motels-search-result-list">
                 <li class="result-list-item">
                     <div class="motel-photo">
-                        <img src="img/Amara.jpg" width="" height="" alt="Amara Resort & SPA">
+                        <img src="img/amara%20resort.jpg"  alt="Amara Resort & SPA">
                     </div>
                     <div class="motel-information">
                         <h3>
@@ -40,10 +44,10 @@
                     </div>
                     <div class="motel-grade">
                         <p class="quality">
-                            <img src="img/star.svg" width="" height="" alt="star">
-                            <img src="img/star.svg" width="" height="" alt="star">
-                            <img src="img/star.svg" width="" height="" alt="star">
-                            <img src="img/star.svg" width="" height="" alt="star">
+                            <img src="img/star.svg"  alt="star">
+                            <img src="img/star.svg"  alt="star">
+                            <img src="img/star.svg"  alt="star">
+                            <img src="img/star.svg"  alt="star">
                         </p>
                         <p class="rating">
                             <span>Рейтинг:8,5</span>
@@ -52,7 +56,7 @@
                 </li>
                 <li class="result-list-item">
                     <div class="motel-photo">
-                        <img src="img/Desert.jpg" width="" height="" alt="Desert Quail Inn">
+                        <img src="img/desert%20quail.jpg"  alt="Desert Quail Inn">
                     </div>
                     <div class="motel-information">
                         <h3>
@@ -69,9 +73,9 @@
                     </div>
                     <div class="motel-grade">
                         <p class="quality">
-                            <img src="img/star.svg" width="" height="" alt="star">
-                            <img src="img/star.svg" width="" height="" alt="star">
-                            <img src="img/star.svg" width="" height="" alt="star">
+                            <img src="img/star.svg"  alt="star">
+                            <img src="img/star.svg"  alt="star">
+                            <img src="img/star.svg"  alt="star">
                         </p>
                         <p class="rating">
                             <span>Рейтинг:8,9</span>
@@ -80,7 +84,7 @@
                 </li>
                 <li class="result-list-item">
                     <div class="motel-photo">
-                        <img src="img/Villas.jpg" width="" height="" alt="Villas At Poco Diablo">
+                        <img src="img/villas%20at%20poco.jpg"  alt="Villas At Poco Diablo">
                     </div>
                     <div class="motel-information">
                         <h3>
@@ -97,8 +101,8 @@
                     </div>
                     <div class="motel-grade">
                         <p class="quality">
-                            <img src="img/star.svg" width="" height="" alt="star">
-                            <img src="img/star.svg" width="" height="" alt="star">
+                            <img src="img/star.svg"  alt="star">
+                            <img src="img/star.svg"  alt="star">
                         </p>
                         <p class="rating">
                             <span>Рейтинг:9,2</span>
@@ -109,9 +113,9 @@
         </section>
     </main>
     <footer class="main-footer">
-        
+
         <div class="search-us"><span>#Visitsedona</span></div>
-        
+
         <div class="footer-social">
             <ul>
                 <li><a class="social-button" href="#">Твиттер</a></li>

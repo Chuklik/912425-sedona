@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
     <title>HTML Academy: Седона</title>
 </head>
 
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <div><a class="main-header-logo" href="#"><img src="img/index-logo.jpg" width="" height="" alt="Logo Sedona"></a></div>
+            <div class="main-header-logo"><a  href="#"><img src="img/index-logo.svg" alt="Logo Sedona"></a></div>
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
                 <li><a href="album.html">Фото и видео</a></li>
@@ -20,11 +21,16 @@
     </header>
     <main class="main-page">
         <section class="welcome">
-            <img src="img/welcome-sedona.jpg" width="" height="" alt="Welcome to Sedona">
+            <img src="img/welcome to sedona.svg" alt="Welcome to Sedona">
         </section>
         <section class="promo">
             <h1 class="promo-header">Седона-небольшой городок в аризоне, заслуживающий большего!</h1>
             <p class="promo-descriptions">Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон</p>
+            <img src="img/general%20view.jpg" alt="General View">
+            <img src="img/appartment.svg" alt="Appartments">
+            <img src="img/food.svg" alt="Food">
+            <img src="img/souvenir.svg" alt="Souvenirs">
+            <img src="img/nature.jpg" alt="Nature">
         </section>
         <section class="offer">
             <h3 class="offer-title">Заинтересовались?</h3>
@@ -32,24 +38,33 @@
         </section>
         <section class="sedona-search">
             <h4>Поиск гостиницы в Седоне</h4>
-            <!-- Здесь будет форма-->
+            <label for="date-arrival">Дата заезда:</label>
+            <input type="date" id="date-arrival" name="date-arrival">
+            <label for="date-departure">Дата выезда:</label>
+            <input type="date" id="date-departure" name="date-departure">
+            <span class="arrivals">
+                <label for="adult">Взрослые:</label>
+                <input type="number" min="0" max="4" step="1" id="adult" name="adult">
+                <label for="kids">Дети:</label>
+                <input type="number" min="0" max="4" step="1" id="kids" name="kids">
+            </span>
             <span class="button">Найти</span>
         </section>
     </main>
     <footer class="<main-footer">
-
+        <img src="img/map.png" alt="map">
         <div class="search-us"><span>#Visitsedona</span></div>
 
 
         <div class="footer-social">
             <ul>
-                <li><a class="social-button" href="#">Твиттер</a></li>
-                <li><a class="social-button" href="#">Фейсбук</a></li>
-                <li><a class="social-button" href="#">Ютуб</a></li>
+                <li><a class="social-button" href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
+                <li><a class="social-button" href="#"><img src="img/facebook.svg" alt="Facebook"></a></li>
+                <li><a class="social-button" href="#"><img src="img/youtube.svg" alt="YouTube"></a></li>
             </ul>
         </div>
         <p class="footer-copyright">
-            Website by:<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/html-logo.svg" width="" height="" alt="Logo HTMLAcademy"></a>
+            Website by:<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/htmlacademy.svg"  alt="Logo HTMLAcademy"></a>
         </p>
     </footer>
 </body>
