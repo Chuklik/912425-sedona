@@ -4,10 +4,93 @@
     object-fit: contain;
 }
 
-.main-page {
-    background-image: url("background-sedona.jpg");
-    background-position: 50% 50%;
+.welcome-to-sedona {
+    width: 460px;
+    height: 360px;
+    object-fit: contain;
 }
-.welcome-sedona {
-    
+
+.general-view {
+    width: 800px;
+    height: 256px;
+    object-fit: contain;
+}
+
+.appartment {
+    width: 75px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.food {
+    width: 75px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.souvenir {
+    width: 75px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.nature {
+    width: 800px;
+    height: 256px; 
+    object-fit: contain;
+}
+
+.map {
+    width: 1200;
+    height: 593;
+    object-fit: contain;
+}
+
+
+.twitter {
+    width: 17px;
+    height: 15px; 
+    object-fit: contain;
+}
+
+.facebook {
+   width: 12px;
+    height: 22px; 
+    object-fit: contain; 
+}
+
+.youtube {
+    width: 20px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.htmlacademy {
+    width: 115px;
+    height: 41px;
+    object-fit: contain;
+}
+
+.amara-resort {
+    width: 135px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.desert-quail {
+    width: 135px;
+    height: 90px;
+    object-fit: conatin;       
+}
+
+.villas-at-poco {
+    width: 135px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.star {
+    width: 18px;
+    height: 17px;
+    object-fit: contain;
 }
